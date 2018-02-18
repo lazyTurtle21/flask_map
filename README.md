@@ -1,6 +1,6 @@
-<h1>map made on Flask</h1>
+<h1>map, made on Flask</h1>
 <h3><i>lab3 2nd task<i></h3>
-  <h2>link = http://sofikholod.pythonanywhere.com/</h2>
+  <h2>link = http://sofikholod.pythonanywhere.com/</h2></i>
 <h2>How to use:</h2>
 1) Install all libraries from file 'requirements.txt'.<br>
 2) Run python program<br>
