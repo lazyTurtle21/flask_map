@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAP</title>
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="{{ url_for('map') }}" method="POST" autocomplete="on" class="form-horizontal">
+        <br>
+        <div class="input-group">
+            <label style="font-size: 22px; font-style: italic" class="control-label col-sm-2" for="account">
+                Twitter account:</label>
+            <div class="col-sm-10">
+                <input type="text" value="" name="account" class="btn btn-light" placeholder="f.g. pewdiepie"/><br><br>
+        </div></div>
+        <div class="form-group">
+            <div class="col-sm-2">
+                <input type="submit" class="btn btn-success" value="submit" minlength="1"/>
+            </div></div>
+    </form>
+        <div>
+            <p><i>P.S. Note that very few users have a valid for finding longitude
+            and latitude location, for most popular accounts (f.g. pewdiepie, realDonaldTrump)
+            you can get about 20 locations on the map.<br>
+            P.S.S. Also note that finding geographical location is not a fast operation, so please,
+                wait for maximum a minute to get your map.
+            </i></p>
+        </div>
+    </div>
+
+</body>
+</html>
